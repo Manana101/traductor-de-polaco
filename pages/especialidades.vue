@@ -8,7 +8,12 @@
       <v-flex xs12 lg8 class="content">
         <p class="title">{{ text1 }}</p>
         <p class="title">{{ text2 }}</p>
-        <v-btn light outline href="mailto:olga@traductordepolaco.eu">Contacto</v-btn>
+        <v-btn
+          light
+          outline
+          href="mailto:olga@traductordepolaco.eu"
+          aria-label="Envía un correo"
+        >Contacto</v-btn>
       </v-flex>
     </v-layout>
   </v-container>
@@ -18,12 +23,13 @@
 export default {
   data() {
     return {
-      src: require('~/assets/images/especialidades.jpg'),
-      text1: 'Nos especializamos en medicina, derecho, márketing, comercio, ciencia, Unión Europea, administración, humanidades, arte, construcción, cosmética, etc...',
-      text2: 'Pide el presupuesto según la modalidad.'
-    }
+      src: require("~/assets/images/especialidades.jpg"),
+      text1:
+        "Nos especializamos en medicina, derecho, márketing, comercio, ciencia, Unión Europea, administración, humanidades, arte, construcción, cosmética, etc...",
+      text2: "Pide el presupuesto según la modalidad."
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -37,7 +43,7 @@ $header-height: 64px;
 }
 
 .layout-with-image {
-  background-image: url('~assets/images/especialidades.jpg');
+  background-image: url("~assets/images/especialidades.jpg");
   background-size: cover;
 }
 
