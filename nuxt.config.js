@@ -12,7 +12,6 @@ export default {
     generate: true,
     hostname: 'http://traductordepolaco.eu',
     exclude: ['/politica-de-privacidad'],
-    trailingSlash: true,
   },
 
   /*

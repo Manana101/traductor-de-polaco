@@ -36,6 +36,12 @@ export default {
           content:
             "Interpretación simultánea de español a polaco en un evento corporativo, interpretación susurrada de la escritura de compraventa y de hipoteca ante notario."
         }
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: "http://traductordepolaco.eu/trabajos-realizados"
+        }
       ]
     };
   },

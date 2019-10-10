@@ -36,6 +36,9 @@ export default {
           content:
             "Interpretación simultánea de polaco y español, interpretación consecutiva en eventos, traducción escrita de polaco."
         }
+      ],
+      link: [
+        { rel: "canonical", href: "http://traductordepolaco.eu/servicios" }
       ]
     };
   },

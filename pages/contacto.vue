@@ -101,7 +101,8 @@ export default {
           content:
             "Traductor e Intérprete de polaco en Godelleta, Valencia, Comunidad Valenciana. Servicios en toda España. Telf: 693592793; e-mail: olga@traductordepolaco.eu"
         }
-      ]
+      ],
+      link: [{ rel: "canonical", href: "http://traductordepolaco.eu/contacto" }]
     };
   },
   data() {

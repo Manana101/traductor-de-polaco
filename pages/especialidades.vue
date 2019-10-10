@@ -31,6 +31,9 @@ export default {
           content:
             "Traducción e interpretación de polaco comercial, de márketing, jurídica, médica, técnica, sector de construcción, científica."
         }
+      ],
+      link: [
+        { rel: "canonical", href: "http://traductordepolaco.eu/especialidades" }
       ]
     };
   },
