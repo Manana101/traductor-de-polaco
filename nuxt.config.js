@@ -8,6 +8,12 @@ export default {
   generate: {
     fallback: true,
   },
+  sitemap: {
+    generate: true,
+    hostname: 'http://traductordepolaco.eu',
+    exclude: ['/politica-de-privacidad'],
+    trailingSlash: true,
+  },
 
   /*
    ** Headers of the page
@@ -62,7 +68,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@bazzite/nuxt-optimized-images'],
+  modules: ['@bazzite/nuxt-optimized-images', '@nuxtjs/sitemap'],
 
   optimizedImages: {
     optimizeImages: true,
