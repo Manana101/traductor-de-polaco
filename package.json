@@ -11,18 +11,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
-    "vuetify": "^1.5.5",
+    "cross-env": "^5.2.1",
+    "nuxt": "^2.10.0",
+    "vuetify": "^1.5.18",
     "vuetify-loader": "^1.2.1"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",
+    "gm": "^1.23.1",
     "imagemin-mozjpeg": "^8.0.0",
     "node-sass": "^4.12.0",
-    "nodemon": "^1.18.9",
-    "sass-loader": "^7.1.0",
-    "stylus": "^0.54.5",
+    "nodemon": "^1.19.3",
+    "sass-loader": "^7.3.1",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
   }
 }

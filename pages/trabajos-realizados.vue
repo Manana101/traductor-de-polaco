@@ -7,7 +7,7 @@
           <v-img
             :src="content.src"
             :width="$vuetify.breakpoint.mdAndDown ? '100%' : '60%'"
-            class="pt-4 centered-image"
+            class="mt-4 centered-image"
           />
           <div
             v-for="(trabajo, index) in content.trabajos"
@@ -27,6 +27,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Interpretación simultánea de español a polaco en un evento corporativo, interpretación susurrada de la escritura de compraventa y de hipoteca ante notario."
+        }
+      ]
+    };
+  },
   data() {
     return {
       contents: [
@@ -51,7 +63,7 @@ export default {
           ]
         },
         {
-          src: require("~/assets/images/trabajos-realizados-traducciones.jpg"),
+          src: require("~/assets/images/trabajos-realizados-traducciones.jpg?lazy"),
           title: "Traducciones de polaco y español",
           trabajos: [
             "traducciones sobre impuestos, jurídicas",

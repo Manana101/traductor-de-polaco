@@ -2,7 +2,7 @@
   <v-container fluid pa-0>
     <v-layout align-center class="jumbotron" pa-2>
       <v-flex>
-        <h2 class="mb-3">{{ h2 }}</h2>
+        <h1 class="mb-3">{{ h2 }}</h1>
         <p class="cities">{{ cities }}</p>
       </v-flex>
     </v-layout>
@@ -65,12 +65,12 @@ export default {
         {
           text:
             "Ofrecer un servicio profesional, confiable y entregado a tiempo es parte de nuestro compromiso de trabajo como traductores de polaco en España.",
-          src: require("~/assets/images/inicio2.jpg")
+          src: require("~/assets/images/inicio2.jpg?lazy")
         },
         {
           text:
             "Si necesitas una traducción de polaco profesional en un campo especializado, mándanos tu documento para traducir al o del polaco para recibir presupuesto.",
-          src: require("~/assets/images/inicio3.jpg")
+          src: require("~/assets/images/inicio3.jpg?lazy")
         }
       ],
       jumbotronText2: "¿En qué destacamos?",
@@ -85,7 +85,7 @@ export default {
           title: "Traducción e Interpretación de polaco en toda España",
           text:
             "Ofrecemos servicios de traducción de documentos de polaco a castellano y de castellano a polaco. Traducimos textos técnicos, médicos, sociales, comerciales, académicos redactados tanto en polaco como en español.",
-          src: require("~/assets/images/inicio5.jpg")
+          src: require("~/assets/images/inicio5.jpg?lazy")
         }
       ]
     };
@@ -94,6 +94,7 @@ export default {
 </script>
 
 <style scoped>
+h1,
 h2,
 p {
   text-align: center;

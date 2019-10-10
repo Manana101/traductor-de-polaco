@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-toolbar app>
-      <v-menu offset-y min-width="100%" v-if="$vuetify.breakpoint.smAndDown">
+      <v-menu offset-y min-width="100%" v-if="$vuetify.breakpoint.mdAndDown">
         <template v-slot:activator="{ on }">
           <v-toolbar-side-icon v-on="on" aria-label="barra de navegación" />
         </template>
@@ -18,9 +18,9 @@
         </v-list>
       </v-menu>
 
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" class="mobile-menu-title" />
       <v-spacer></v-spacer>
-      <v-toolbar-items v-if="$vuetify.breakpoint.mdAndUp">
+      <v-toolbar-items v-if="$vuetify.breakpoint.lgAndUp">
         <template v-for="item in navItems">
           <v-btn aria-label="item.title" flat :key="item.title" :to="item.to" exact>{{ item.title }}</v-btn>
         </template>
@@ -79,3 +79,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.mobile-menu-title {
+  white-space: normal;
+  line-height: 24px;
+  font-size: 18px;
+}
+</style>

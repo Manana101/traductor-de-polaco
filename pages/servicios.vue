@@ -27,6 +27,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Interpretación simultánea de polaco y español, interpretación consecutiva en eventos, traducción escrita de polaco."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "Servicios",

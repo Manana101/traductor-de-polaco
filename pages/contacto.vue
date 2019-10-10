@@ -4,10 +4,10 @@
       <v-flex xs12 lg8>
         <div
           class="typeform-widget"
-          data-url="https://manana307418.typeform.com/to/zqdTJK"
+          data-url="https://olga209654.typeform.com/to/WsBVfv"
           data-hide-headers="true"
           data-hide-footer="true"
-          style="width: 100%; height: 500px;"
+          style="width: 100%; height: 450px;"
         ></div>
         <script>
   (function() {
@@ -92,6 +92,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Traductor e Intérprete de polaco en Godelleta, Valencia, Comunidad Valenciana. Servicios en toda España. Telf: 693592793; e-mail: olga@traductordepolaco.eu"
+        }
+      ]
+    };
+  },
   data() {
     return {
       h1: "Contacto",
