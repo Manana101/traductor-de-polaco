@@ -1,8 +1,36 @@
 <template>
+  <div>
+    <h1>Página de Inicio</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Traducción e interpretación profesional en toda España',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Servicios expertos de traducción e interpretación para empresas en España. Atención en Valencia y otras ciudades | Traductordepolaco'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'traductor de polaco en España, intérprete profesional de polaco'
+        }
+      ]
+    }
+  }
+}
+</script>
+
+<template>
   <v-container fluid pa-0>
     <v-layout align-center class="jumbotron" pa-2>
       <v-flex>
-        <h1 class="mb-3">{{ h2 }}</h1>
+        <h1 class="mb-3">{{ h1 }}</h1>
         <p class="cities">{{ cities }}</p>
       </v-flex>
     </v-layout>
@@ -53,7 +81,7 @@
 export default {
   data() {
     return {
-      h2: "Olga Niebieszczańska",
+      h1: "Solicita servicios de traducción e interpretación en Valencia",
       cities:
         "Valencia Alicante Castellón Murcia Burgos Madrid Barcelona Sevilla Cádiz Córdoba Granada",
       upperCarouselItems: [
