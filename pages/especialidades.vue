@@ -31,7 +31,8 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Interpretación consecutiva y traducción especializada en múltiples sectores y documentos oficiales. Traducciones técnicas por profesionales en español y polaco'
-        },
+        }
+        ],
       link: [
         { rel: "canonical", href: "http://traductordepolaco.eu/especialidades" }
       ]
