@@ -29,12 +29,12 @@
 export default {
   head() {
     return {
+      title: 'Servicio de interpretación simultánea y traducción profesional',
       meta: [
         {
-          hid: "description",
-          name: "description",
-          content:
-            "Interpretación simultánea de polaco y español, interpretación consecutiva en eventos, traducción escrita de polaco."
+          hid: 'description',
+          name: 'description',
+          content: 'Servicio de interpretación simultánea y traducción en Valencia por expertos bilingües. Traducciones técnicas y de documentos para empresas y eventos.'
         }
       ],
       link: [
