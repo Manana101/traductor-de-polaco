@@ -2,7 +2,8 @@
   <v-container grid-list-xl>
     <v-layout align-center mt-4 mb-4>
       <v-flex>
-        <h2 class="display-2 font-weight-bold">{{ title }}</h2>
+        <h2 class="display-2 font-weight-bold">{{ seccion1titulo1 }}</h2>
+        <p>{{ seccion1parrafo1 }}</p>
       </v-flex>
     </v-layout>
     <v-layout wrap fill-height row>
@@ -21,6 +22,14 @@
           </v-card>
         </v-flex>
       </template>
+    </v-layout>
+    <v-layout align-center mt-4 mb-4>
+      <v-flex>
+        <h2 class="display-2 font-weight-bold">{{ seccion2titulo1 }}</h2>
+        <p>{{ seccion2parrafo1 }}</p>
+        <h2 class="display-2 font-weight-bold">{{ seccion2titulo2 }}</h2>
+        <p>{{ seccion2parrafo2 }}</p>
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
@@ -44,7 +53,12 @@ export default {
   },
   data() {
     return {
-      title: "Servicios",
+      seccion1titulo1: "Solicita servicio de interpretación simultánea en Valencia",
+      seccion1parrafo1: "Ofrecemos servicio de interpretación simultánea y traducciones técnicas precisas para empresas y particulares. Nuestros intérpretes profesionales trabajan en eventos, conferencias y reuniones. También realizamos traducciones de documentos especializadas, desde textos técnicos hasta jurídicos. Operamos desde Valencia y brindamos servicios de traducción Valencia para toda España, con resultados de alta calidad.",
+      seccion2titulo1: "Beneficios de nuestros servicios de traducción Valencia",
+      seccion2parrafo1: "Nuestros servicios de traducción Valencia garantizan entregas precisas y adaptadas a cada sector. Traducimos documentos técnicos, médicos, académicos y comerciales de polaco a español y viceversa. Cada proyecto es tratado con atención al detalle por traductores expertos. La fidelidad del texto original y la comprensión cultural aseguran una traducción útil y eficaz.",
+      seccion2titulo2: "Técnicas de traducción aplicadas en cada especialidad",
+      seccion2parrafo2: "Utilizamos técnicas de traducción profesionales que se ajustan al contexto de cada documento. Nuestro equipo domina las mejores prácticas lingüísticas para adaptar contenidos técnicos o especializados. Gracias a su experiencia en traducciones técnicas, ofrecemos resultados de alta precisión. Las traducciones de documentos se entregan siempre revisadas y listas para su uso inmediato.", 
       cards: [
         {
           title: "Traducción de polaco",
