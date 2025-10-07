@@ -2,8 +2,9 @@
   <v-container fluid pa-0>
     <v-layout align-center wrap row reverse>
       <v-flex xs12 lg6 :class="['content', {'mobile-height': $vuetify.breakpoint.mdAndDown }]">
-        <p>{{ text1 }}</p>
-        <p>{{ text2 }}</p>
+        <h1>{{ seccion1titulo1 }}</h1>
+        <p>{{ seccion2parrafo1 }}</p>
+        <p><strong>{{ seccion2parrafo2 }}</strong></p>
         <v-btn
           light
           outline
@@ -24,14 +25,14 @@
 export default {
   head() {
     return {
+      title: 'Interpretación consecutiva y traducciones técnicas en español',
       meta: [
         {
-          hid: "description",
-          name: "description",
-          content:
-            "Traducción e interpretación de polaco comercial, de márketing, jurídica, médica, técnica, sector de construcción, científica."
+          hid: 'description',
+          name: 'description',
+          content: 'Interpretación consecutiva y traducción especializada en múltiples sectores y documentos oficiales. Traducciones técnicas por profesionales en español y polaco'
         }
-      ],
+        ],
       link: [
         { rel: "canonical", href: "http://traductordepolaco.eu/especialidades" }
       ]
@@ -39,9 +40,9 @@ export default {
   },
   data() {
     return {
-      text1:
-        "Nos especializamos en medicina, derecho, márketing, comercio, ciencia, Unión Europea, administración, humanidades, arte, construcción, cosmética, etc...",
-      text2: "Pide el presupuesto según la modalidad."
+      seccion1titulo1: "Solicita presupuesto para interpretación o traducción especializada",
+      seccion2parrafo1: "Nos especializamos en interpretación consecutiva y traducciones técnicas adaptadas a sectores como medicina, derecho, marketing, comercio, ciencia, administración, arte y más. Nuestro equipo domina la traducción especializada, la interpretación simultánea, la traducción de documentos oficiales y las traducciones jurídicas con precisión lingüística.",
+      seccion2parrafo2: "Contáctanos y solicita tu presupuesto según la modalidad que necesites."
     };
   }
 };
