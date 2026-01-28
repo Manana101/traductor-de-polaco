@@ -26,6 +26,9 @@
 </template>
 
 <script>
+import trabajosRealizadosInterpretaciones from '~/assets/images/trabajos-realizados-interpretaciones.jpg'
+import trabajosRealizadosTraducciones from '~/assets/images/trabajos-realizados-traducciones.jpg?lazy'
+
 export default {
   head() {
     return {
@@ -49,7 +52,7 @@ export default {
     return {
       contents: [
         {
-          src: require("~/assets/images/trabajos-realizados-interpretaciones.jpg"),
+          src: trabajosRealizadosInterpretaciones,
           title: "Interpretaciones de polaco y español",
           trabajos: [
             "interpretación simultánea, reunión del Muy Ilustre Colegio Oficial de Farmacéuticos de Valencia (MICOF) y la Consellería de Sanidad, Conseller de Sanidad Manuel Cervera y los tres Colegios de Farmacéuticos de la Comunidad Valenciana, Comité de las Regiones de la Unión Europea, Bruselas, Bélgica",
@@ -69,7 +72,7 @@ export default {
           ]
         },
         {
-          src: require("~/assets/images/trabajos-realizados-traducciones.jpg?lazy"),
+          src: trabajosRealizadosTraducciones,
           title: "Traducciones de polaco y español",
           trabajos: [
             "traducciones sobre impuestos, jurídicas",

@@ -35,6 +35,9 @@
 </template>
 
 <script>
+import serviciosTraduccion from '~/assets/images/servicios-traduccion.jpg'
+import serviciosInterpretacion from '~/assets/images/servicios-interpretacion.jpg'
+
 export default {
   head() {
     return {
@@ -62,13 +65,13 @@ export default {
       cards: [
         {
           title: "Traducción de polaco",
-          src: require("~/assets/images/servicios-traduccion.jpg"),
+          src: serviciosTraduccion,
           text:
             "Ofrecemos servicios de traducción de documentos de polaco a castellano y de castellano a polaco. Traducimos textos técnicos, médicos, sociales, comerciales, académicos redactados tanto en polaco como en español. Trabajamos para los clientes que buscan alta calidad de traducciones de polaco técnicas, especializadas, jurídicas, etc. Mándanos tu texto para traducir del o al polaco para recibir el presupuesto y plazo de entrega. Siempre cumplimos los plazos acordados con el cliente de finalizar su traducción de polaco."
         },
         {
           title: "Interpretación de polaco",
-          src: require("~/assets/images/servicios-interpretacion.jpg"),
+          src: serviciosInterpretacion,
           text:
             "Te acompañamos durante las reuniones de negocios en Polonia y España proporcionando intérpretes profesionales de polaco y castellano. Ofrecemos interpretación de polaco simultánea en cabina, interpretación consecutiva de polaco, interpretación de enlace durante eventos, ferias, conferencias y congresos. Contáctanos para recibir el presupuesto de tu interpretación en polaco y español."
         }
