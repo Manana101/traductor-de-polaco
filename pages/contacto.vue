@@ -110,8 +110,8 @@ export default {
       h1: "Contacto",
       image: require("~/assets/images/contacto.jpg"),
       data: {
-        address_line1: "Calle Islas Baleares 2/11",
-        address_line2: "46388 Godelleta, Valencia",
+        address_line1: "Calle Campillo 86",
+        address_line2: "46380 Cheste.",
         webpage: "www.traductordepolaco.eu",
         mail: "olga@traductordepolaco.eu",
         tel: "(+34) 693592793",
